@@ -23,6 +23,12 @@ nav{
 }
 
 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    border: 1px dotted lightblue;
+     border-radius: 25px;
+}
+
 #indexhome{
     position: relative;
     background-image: url('image/whitebg.jpg');
@@ -162,6 +168,8 @@ nav{
     height: 70px;
     width: 100px;
 }
+
+
 
 
 footer{
