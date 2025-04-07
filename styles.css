@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+nav{
+    background-color: darkgrey;
+}
+
+
+
+#indexhome{
+    background-image: url(image/code.jpg);
+    clip-path: polygon(100% 6%, 0% 100%, 100% 100%);
+    height: 80vh;
+    padding: 50px;
+    z-index: 111
+}
+
+.typed-out {
+    border-right: none; 
+    width: auto; 
+    animation: none;
+  }
+  
+  /* Apply animation only on desktop */
+  @media screen and (min-width: 768px) {
+    .typed-out {
+      border-right: .15em solid rgba(255, 166, 0, 0.76);
+      animation: typing 4s steps(10) infinite;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+  }
+
+footer{
+    margin-top: 20px;
+    padding: 8px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
