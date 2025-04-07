@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="image/favicon.ico" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,10 +22,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html"> <i class="fa-solid fa-list-check"></i> Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html"> <i class="fa-solid fa-address-book"></i> Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html"> <i class="fa-solid fa-file-invoice"></i> Resume</a></li>
         </ul>
       </div>
     </div>
@@ -39,7 +40,7 @@
         </div>
         <div class="col-md-8">
           <h2 class="display-5">Hello, I'm <span class="typed-out">Name</span></h2>
-          <p class="lead m-5">I'm a Backend Developer who specializes in building scalable APIs and working with databases.</p>
+          <p class="lead m-md-5">I'm a Backend Developer who specializes in building scalable APIs and working with databases.</p>
             <!--  <a href="projects.html" class="btn btn-success btn-lg">See My Projects</a>-->
             <button class="button-73" role="button">See My Projects</button>
         </div>
@@ -53,33 +54,23 @@
     <img src="image/arrow.png" class="img-fluid learn-more-btn" height="40" width="40" title="Learn more">
   </div>
 
-  <!-- Section to Scroll to -->
+  <!-- About -->
   <section id="moreInfo" class="text-center py-4 bg-light">
     <div class="container">
         <h4>ABOUT</h4>
       <div class="row">
           <div class="col-md-8">
-                <p class="about__text">
-              Hi, I am a <span class="about__text--underline">Full Stack Web Developer</span>. An <span class="about__text--underline">Open
-              Source enthusiast</span> and a <span class="about__text--underline">Computer Application</span> Masters from India.
+             <p class="">
+              Hi, I am a <span class="">Full Stack Web Developer</span>. An <span class="">Open
+              Source enthusiast</span> and a <span class="">Computer Application</span> Masters from India.
               <br><br>
               I am a Software engineer with a strong foundation in Computer Science, specializing in web development. I have good work experience with various startups where I was core part of developer team and work on major features. Proficient in a range of technologies, I've successfully delivered tailored solutions for various freelance projects.
               <br><br>
               I love working on new and exciting technologies. I have a keen interest in Web Development and I am always looking for new opportunities to learn and grow.
-            </p>
-
-            <br>
-            <div class="about__buttons">
-              <a href="#skills" class="btn btn-primary about__buttons-item">
-                Skills
-              </a>
-              <a target="_blank" href="/resume.pdf" class="btn btn-primary about__buttons-item">
-                Resume
-              </a>
-            </div>    
+            </p>  
           </div>
           <div class="col-md-4">
-                <img src="image/person.jpg" class="img-fluid" >
+             <img src="image/person.jpg" class="img-fluid w-75" >
           </div>
       </div>
     </div>
@@ -88,37 +79,105 @@
     
     
     
-  <!-- Section to Scroll to -->
-  <section id="moreInfo" class="text-center py-3 bg-light mt-5 mb-5">
+  <!-- Skill -->
+  <section id="skill" class="text-center py-3 bg-light mt-5 mb-5">
     <div class="container">
         <h4>SKILLS</h4>
       <div class="row">
           <div class="col-md-4 text-center">
             <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                 <p>Backend Development</p>
-                <img src="image/api.png" class="img-fluid text-center" height="60" width="60">
+                <img src="image/api.png" class="img-fluid text-center m-2" height="60" width="60">
             </div>
           </div>
           <div class="col-md-4 text-center">
              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                 <p>Fullstack Development</p>
-                <img src="image/app-development.png" class="img-fluid" height="60" width="60">
+                <img src="image/app-development.png" class="img-fluid m-2" height="60" width="60">
              </div>
           </div>
            <div class="col-md-4 text-center">
              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                 <p>App Development</p>
-                <img src="image/smartphone.png" class="img-fluid " height="60" width="60">
+                <img src="image/smartphone.png" class="img-fluid m-2" height="60" width="60">
              </div>
           </div>
       </div>
     </div>
-  </section>    
+  </section>   
+    
+    
+    
+<!-- Education -->
+  <section id="edu" class="py-3 bg-light mt-5 mb-5">
+    <div class="container">
+        <h4 class="text-center">EDUCATION</h4>
+        <div class="row">
+            <div class="col-6 eduinner">
+               <div class="card border-0">
+                     <h5 class="eduinner-head">MCA</h5>
+                    <p class="eduinner-text p-0 m-0">MAKAUT</p>
+                    <p class="eduinner-text p-0 m-0">8.7</p>
+                    <p class="eduinner-text p-0 m-0">2017-2020</p>
+                </div>
+            </div>
+
+             <div class="col-6 eduinner">
+                <div class="card  border-0">
+                    <h5 class="eduinner-head" >BCA</h5>
+                    <p class="eduinner-text p-0 m-0">SKBU</p>
+                    <p class="eduinner-text p-0 m-0">6</p>
+                    <p class="eduinner-text p-0 m-0">2014-2017</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+  </section>   
+    
+    
+    
+<!-- Experience -->
+  <section id="exp" class="py-3 bg-light mt-5 mb-5">
+    <div class="container">
+        <h4 class="text-center">EXPERIENCE</h4>
+        <div class="">
+            <div class="expinner">
+                <h5 class="expinner-head">Maybious Art</h5>
+                <p class="expinner-text p-0 m-0">Fullstack developer</p>
+                <p class="expinner-text p-0 m-0">2024-Current</p>
+            </div>
+
+             <div class="expinner">
+                <h5 class="expinner-head">TM Infotech sollution</h5>
+                <p class="expinner-text p-0 m-0">Fullstack developer</p>
+                <p class="expinner-text p-0 m-0">2022-2024</p>
+            </div>
+        </div>
+    </div>
+  </section>       
+    
+    
+    
+    
+<!-- Projects -->
+  <section id="pro" class="py-3 bg-light mt-5 mb-5">
+    <div class="container">
+        <h4 class="text-center">PROJECTS</h4>
+        <div class="row">
+           
+        </div>
+    </div>
+  </section>           
     
 
   <!-- Footer -->
   <footer class="text-center bg-light text-dark">
-    <p>Find me on <a href="https://github.com/yourusername" target="_blank" class="text-white">GitHub</a> and <a href="https://www.linkedin.com/in/yourname" target="_blank" class="text-white">LinkedIn</a>.</p>
+    <p>Find me on</p>
+    <div>
+        <i class="fa-solid fa-envelope fa-2x"></i>
+        <i class="fa-brands fa-github fa-2x"></i>
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+    </div>  
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
